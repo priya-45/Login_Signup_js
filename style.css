@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+#bg{
+	background:linear-gradient(to right,rgb(238, 106, 106), rgb(92, 92, 221),pink,rgb(228, 228, 73))
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    overflow: hidden;
+}
+
+.forms-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.title{
+    font-size: 2.2rem;
+    color: black;
+    margin-bottom:10px;
+}
+
+
+.input-feild{
+    max-width: 380px;
+    /* width: 100%; */
+    height: 30px;
+    margin: 15px 0;
+    /* border-radius:48px ; */
+    display: grid;
+    grid-template-columns: 15% 85%;
+    /* padding:0 0.4rem ; */
+    position: relative;
+}
+    .input-feild i{
+    text-align: center;
+    line-height: 55px;
+    /* color: #acacac; */
+    font-size: 1.5rem;
+}
+
+.input-feild input{
+    background: pink;
+    outline: none;
+    border-color:black ;
+    line-height: 1;
+    font-size:1.rem ;
+    font-weight: 600;
+    /* color: #333; */
+}
+/* 
+.input-feild input:placeholder-shown
+{
+    color:black;
+    font-weight: 500;
+} */
+
+
+.btn{
+    width: 150px;
+    height: 49px;
+    /* outline: none;
+    border: none; */
+    border-radius: 50px;
+    background-color: blue;
+    color:red;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    /* transition: all 0.5s; */
+}
+
+
+.btn:hover{
+    background-color:yellowgreen;
+}
+
+.social-text{
+    padding: o.7rem 0;
+}
+
+/* .social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon
+{
+    height: 46px;
+    width:46px;
+    border: 1px solid yellow;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: none; */
+    /* color: #333; */
+    /* font-size: 1.3rem; */
+    /* border-radius: 100%;
+    transition: all 0.5s; */
+
+/* } */ 
+
+
+/* .signin-signup{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: 1fr;
+} */
+
+/* 
+form.sign-in-form{
+    z-index: 2;
+}
+
+form.sign-up-form{
+    z-index: 1;
+    opacity: 0;
+}   */
+/* 
+.sigin-and-sign-up{
+    position: relative;
+    width: 100%;
+    background-color: rgb(139, 98, 235);
+    min-height: 50vh;
+    overflow: hidden;
+} */
